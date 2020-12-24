@@ -1,0 +1,39 @@
+2020-12-16 12:30:45,818 INFO com.capgemini.productmanagementjparest.ProductManagementJpaRestApplication [restartedMain] Starting ProductManagementJpaRestApplication using Java 1.8.0_261 on DESKTOP-B8FF4R1 with PID 28912 (F:\Corporate Training\IIHT\Capgemini-2020\Spring5Projects\product-management-jpa-rest\product-management-jpa-rest\target\classes started by Admin in F:\Corporate Training\IIHT\Capgemini-2020\Spring5Projects\product-management-jpa-rest\product-management-jpa-rest)
+2020-12-16 12:30:45,819 DEBUG com.capgemini.productmanagementjparest.ProductManagementJpaRestApplication [restartedMain] Running with Spring Boot v2.4.1, Spring v5.3.2
+2020-12-16 12:30:45,819 INFO com.capgemini.productmanagementjparest.ProductManagementJpaRestApplication [restartedMain] No active profile set, falling back to default profiles: default
+2020-12-16 12:30:46,955 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-12-16 12:30:46,959 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 3 ms. Found 0 JPA repository interfaces.
+2020-12-16 12:30:57,769 INFO com.capgemini.productmanagementjparest.ProductManagementJpaRestApplication [restartedMain] Starting ProductManagementJpaRestApplication using Java 1.8.0_261 on DESKTOP-B8FF4R1 with PID 14240 (F:\Corporate Training\IIHT\Capgemini-2020\Spring5Projects\product-management-jpa-rest\product-management-jpa-rest\target\classes started by Admin in F:\Corporate Training\IIHT\Capgemini-2020\Spring5Projects\product-management-jpa-rest\product-management-jpa-rest)
+2020-12-16 12:30:57,773 DEBUG com.capgemini.productmanagementjparest.ProductManagementJpaRestApplication [restartedMain] Running with Spring Boot v2.4.1, Spring v5.3.2
+2020-12-16 12:30:57,773 INFO com.capgemini.productmanagementjparest.ProductManagementJpaRestApplication [restartedMain] No active profile set, falling back to default profiles: default
+2020-12-16 12:30:57,917 INFO org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-12-16 12:30:57,917 INFO org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-12-16 12:30:59,826 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-12-16 12:30:59,866 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 13 ms. Found 0 JPA repository interfaces.
+2020-12-16 12:31:02,200 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8081 (http)
+2020-12-16 12:31:02,223 INFO org.apache.coyote.http11.Http11NioProtocol [restartedMain] Initializing ProtocolHandler ["http-nio-8081"]
+2020-12-16 12:31:02,224 INFO org.apache.catalina.core.StandardService [restartedMain] Starting service [Tomcat]
+2020-12-16 12:31:02,224 INFO org.apache.catalina.core.StandardEngine [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.41]
+2020-12-16 12:31:02,423 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [restartedMain] Initializing Spring embedded WebApplicationContext
+2020-12-16 12:31:02,424 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 4505 ms
+2020-12-16 12:31:03,479 INFO org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-12-16 12:31:03,587 INFO org.hibernate.Version [restartedMain] HHH000412: Hibernate ORM core version 5.4.25.Final
+2020-12-16 12:31:03,878 INFO org.hibernate.annotations.common.Version [restartedMain] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2020-12-16 12:31:04,125 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Starting...
+2020-12-16 12:31:04,371 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Start completed.
+2020-12-16 12:31:04,437 INFO org.hibernate.dialect.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+2020-12-16 12:31:06,164 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-12-16 12:31:06,178 INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-12-16 12:31:06,205 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2020-12-16 12:31:06,451 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-12-16 12:31:06,735 INFO org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor [restartedMain] Initializing ExecutorService 'applicationTaskExecutor'
+2020-12-16 12:31:07,762 INFO org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver [restartedMain] Exposing 2 endpoint(s) beneath base path '/actuator'
+2020-12-16 12:31:07,844 INFO org.apache.coyote.http11.Http11NioProtocol [restartedMain] Starting ProtocolHandler ["http-nio-8081"]
+2020-12-16 12:31:07,884 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8081 (http) with context path ''
+2020-12-16 12:31:07,919 INFO com.capgemini.productmanagementjparest.ProductManagementJpaRestApplication [restartedMain] Started ProductManagementJpaRestApplication in 10.975 seconds (JVM running for 11.941)
+2020-12-16 12:31:22,285 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [http-nio-8081-exec-2] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-12-16 12:31:22,285 INFO org.springframework.web.servlet.DispatcherServlet [http-nio-8081-exec-2] Initializing Servlet 'dispatcherServlet'
+2020-12-16 12:31:22,288 INFO org.springframework.web.servlet.DispatcherServlet [http-nio-8081-exec-2] Completed initialization in 3 ms
+2020-12-16 12:31:22,989 INFO com.capgemini.training.controller.ProductController [http-nio-8081-exec-2] Returning all product details
+2020-12-16 12:31:30,416 INFO com.capgemini.training.controller.ProductController [http-nio-8081-exec-3] Product addedProduct [productId=3, productName=Apple iPhone 12, productCategory=Mobile, manufactureDate=2020-10-21, expiryDate=2050-10-01, productPrice=96700.0]
+2020-12-16 16:25:29,112 WARN com.zaxxer.hikari.pool.HikariPool [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2h13m24s409ms12µs700ns).
