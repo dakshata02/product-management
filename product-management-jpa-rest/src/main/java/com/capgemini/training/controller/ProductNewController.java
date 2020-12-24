@@ -101,7 +101,7 @@ public class ProductNewController {
 	//delete product
 	@ApiOperation(value = "Delete product",
 			response = Product.class,
-			tags = "get-product",
+			tags = "delete-product",
 			consumes = "productId",
 			httpMethod = "DELETE")
 	@DeleteMapping("/{id}")
@@ -125,9 +125,9 @@ public class ProductNewController {
 	//update product
 	@ApiOperation(value = "Update product",
 			response = Product.class,
-			tags = "get-product",
+			tags = "put-productId",
 			consumes = "productId",
-			httpMethod = "GET")
+			httpMethod = "PUT")
 	@PutMapping("/")
 	public ResponseEntity<Product> updateProduct(@RequestBody Product product) {
 		try {
